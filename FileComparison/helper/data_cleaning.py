@@ -12,7 +12,6 @@ df2 = pd.read_csv(file2, low_memory=False)
 def datacheck(df):
     if df.empty:
         print('Empty dataset')
-    return True
 
 
 def dataQualityCheck(df):
